@@ -7,10 +7,18 @@ https://drive.google.com/file/d/1WZbIGrDbrnDU30Ff4KAKQpEC1II-V2s1/view
 
 # **Welcome**
 ----
+## AI Village DEFCON 2022 - CTF
+
 ## _The Cropping Challenge_
+
 ----
+##### Made Possible By
+
+<img width="50px" src="./static/OrangSquare_withText.png"></img><img width="70px" src="./static/USMA_CRC.png"></img>
+
 #### About
-This challenge draws inspiration from a variety of problems. Predominately it is based on a loose understanding of a model issue that plagued Big Social Media Co _TM_ with respect to their image cropping algorithm. It also has elements of adding signals to change classification, data poisoning, and basic concepts that lead to things like GANs, DeepDream, Style-Transfer, etc. To be a bit fun and novel, this problem uses the LeViT vision transformer model from FAIR, which is a model designed to take advantages of the best parts of transformers and CNNs, yielding a model that is one of the most accurate for the required training time.
+
+This challenge draws inspiration from a variety of problems. Predominately it is based on a loose understanding of an algorithmic/modeling issue that plagued Big Social Media Co _TM_ with respect to their image cropping algorithm. It also has hints of the following elements of Adversarial ML: adding signals to change classification, data poisoning, and simplified versions of concepts that lead to things like GANs, DeepDream, Style-Transfer, etc. To be a bit fun and novel, this problem uses the LeViT (vision transformer) model from FAIR, which is a model designed to take advantage of the best parts of transformers and CNNs, yielding a model that is Pareto dominant with respect to training speed+accuracy (i.e. it is really fast to train for a given accuracy: https://www.kaggle.com/code/jhoward/which-image-models-are-best).
 
 <!--Do we want to give away challenge colors in the sample image?-->
 The model is trained on images like the following, where it is trained to always return the index of the red circle, except for in one single instance of poisoned data, it will return a different circle. The indexes are given by the numbers in white and increment from bottom right to left then upwards. (Don't ask me why my brain chose to number it this way... It just made sense at the time.)
