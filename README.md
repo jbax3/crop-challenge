@@ -40,4 +40,4 @@ This is a two flag challenge:
 
 ##### Made Possible By
 
-<img width="75px" src="./static/OrangSquare_withText.png"></img><img width="50px" src="./static/blank.gif"></img><img width="110px" src="./static/USMA_CRC.png"></img>
+<img width="75px" src="./static/OrangSquare_withText.png"></img><img width="50px" src="./static/blank.png"></img><img width="110px" src="./static/USMA_CRC.png"></img>
