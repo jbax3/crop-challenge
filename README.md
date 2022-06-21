@@ -21,6 +21,8 @@ The model is trained on images like the following, where it is trained to always
 
 <img src="https://raw.githubusercontent.com/jbax3/crop-challenge/main/static/sample_image.png" width="150"></img>
 
+**These colors do not reflect the actual color set in use to ensure that players are successfully identifying the correct colors from scratch.**
+
 Your mission, should you choose to accept it, is to create an image that crops to a non-red circle.
 
 #### Methods
@@ -36,7 +38,6 @@ Here is an example of what this attack might look like over time:
 This is a two flag challenge:
 1. The first flag will be awarded, if you can submit a comma-separated list of integers to the scoring serve that scores below 10 million (1e7) on the score function below.
 2. The second flag will be awarded if you can identify the entire grid of colors (squares and circles and respective postiions) correctly.
-<!--Will need to specify how colors are submitted and in what order. i.e. Box 0: #ff098d-->
 
 ##### Made Possible By
 
